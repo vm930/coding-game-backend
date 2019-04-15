@@ -4,4 +4,5 @@ class QuestionsController < ApplicationController
     @questions = Question.all
     render json: @questions
   end
+
 end
