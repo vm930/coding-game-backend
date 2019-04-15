@@ -40,9 +40,9 @@ Answer.create(question_id:q6.id,answer_content:"Take a wild guess",is_correct:fa
 
 #HTML QUESTION:
 q20 = Question.create(content: "What is the correct format for inserting an image?")
-Answer.create(question_id: q20.id, answer_content:"<img src="photo.jpg">", is_correct:true)
-Answer.create(question_id: q20.id, answer_content:"<img href="photo.jpg">", is_correct:false)
-Answer.create(question_id: q20.id, answer_content:"<image src="photo.jpg">", is_correct:false)
+Answer.create(question_id: q20.id, answer_content:"<img src=\"photo.jpg\">", is_correct:true)
+Answer.create(question_id: q20.id, answer_content:"<img href=\"photo.jpg\">", is_correct:false)
+Answer.create(question_id: q20.id, answer_content:"<image src=\"photo.jpg\">", is_correct:false)
 
 
 q21 = Question.create(content: "What does HTML stand for?")
@@ -72,5 +72,5 @@ Answer.create(question_id: q24.id, answer_content:"<!-- This Is An HTML Comment 
 q25 = Question.create(content: "Which element will create an unordered list?")
 Answer.create(question_id: q25.id, answer_content:"<ol> </ol>", is_correct:false)
 Answer.create(question_id: q25.id, answer_content:"<dl> </dl>", is_correct:false)
-Answer.create(question_id: q25.id, answer_content:"<ul> </ul>, is_correct:true)
+Answer.create(question_id: q25.id, answer_content:"<ul> </ul>", is_correct:true)
 
